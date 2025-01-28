@@ -1,6 +1,5 @@
-// components/Footer.jsx
 import React from "react";
-import "../App.css"; // Importing global CSS
+import './Footer.css';
 
 function Footer() {
     return (

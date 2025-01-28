@@ -1,0 +1,8 @@
+.icon-container {
+    width: 50px;           /* Adjust size of the icon */
+    height: 50px;          /* Adjust size of the icon */
+    background-image: url('icon.png'); /* Path to your icon */
+    background-size: cover; /* Ensures the icon fits the container */
+    background-position: center; /* Centers the icon */
+    border-radius: 50%;   /* Makes the icon circular (optional) */
+}

@@ -1,0 +1,43 @@
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+}
+
+.navbar-button {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Navbar center with logo */
+.navbar-center {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar-logo {
+    height: 50px; /* Adjust this as needed */
+    width: auto;
+}
+
+/* Adjust the appearance of buttons on hover */
+.navbar-button:hover {
+    background-color: #555;
+}
