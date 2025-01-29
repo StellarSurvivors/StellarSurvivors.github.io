@@ -1,5 +1,5 @@
 import React from "react";
-import './HomePage.css';
+import "./HomePage.css";
 import Icon from "../../components/Icon/Icon";
 import Footer from "../../components/Footer/Footer";
 
@@ -64,7 +64,6 @@ function HomePage() {
                     </div>
                 </div>
             </section>
-            <Footer />
         </div>
     );
 }
