@@ -1,0 +1,65 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+}
+
+.navbar-button {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.navbar-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: auto;
+}
+
+/* Hover effect for navbar buttons */
+.navbar-button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}

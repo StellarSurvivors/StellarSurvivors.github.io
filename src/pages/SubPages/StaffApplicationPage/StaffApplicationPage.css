@@ -1,0 +1,128 @@
+/* Base container styles */
+.staff-application-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.staff-application-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.staff-application-header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.staff-application-header p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Application form container */
+.application-form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Form field styles */
+.application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.application-form label {
+    font-size: 18px;
+    color: #555;
+}
+
+.application-form input,
+.application-form select,
+.application-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+.application-form textarea {
+    resize: vertical;
+}
+
+.application-form .submit-btn {
+    background-color: #f44d5c;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.application-form .submit-btn:hover {
+    background-color: #d4384f;
+}
+
+/* Age selector styles */
+.age-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.age-selector button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.age-selector button.selected {
+    background-color: #f44d5c;
+    color: white;
+}
+
+.age-selector button:hover {
+    background-color: #f4f4f4;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .staff-application-page {
+        padding: 20px;
+    }
+
+    .application-form-container {
+        padding: 20px;
+    }
+
+    .application-form label {
+        font-size: 16px;
+    }
+
+    .application-form input,
+    .application-form select,
+    .application-form textarea {
+        font-size: 14px;
+    }
+
+    .application-form .submit-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}

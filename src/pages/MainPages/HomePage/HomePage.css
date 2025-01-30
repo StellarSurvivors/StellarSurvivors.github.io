@@ -1,0 +1,120 @@
+/* Global styles for the staff application page */
+.staff-application {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* Header styling */
+.staff-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.staff-header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.staff-header p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Form container */
+.application-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Form fields styling */
+.application-form .form-group {
+    margin-bottom: 20px;
+}
+
+.application-form label {
+    font-size: 18px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.application-form textarea,
+.application-form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+.application-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.age-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.age-group button {
+    background-color: #ddd;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.age-group button.selected {
+    background-color: #f44d5c;
+    color: white;
+}
+
+.application-form .submit-btn {
+    background-color: #f44d5c;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.application-form .submit-btn:hover {
+    background-color: #d4384f;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .staff-application {
+        padding: 20px;
+    }
+
+    .application-form {
+        padding: 20px;
+    }
+
+    .application-form label {
+        font-size: 16px;
+    }
+
+    .application-form textarea {
+        font-size: 14px;
+    }
+
+    .application-form .submit-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
